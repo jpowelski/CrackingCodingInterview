@@ -9,16 +9,6 @@ package main.ch1;
  */
 public class Task2 {
 
-	// public String reverseString(String string) {
-	// char[] reversedCharacters = new char[string.length()];
-	// int tail = string.length() - 1;
-	// for(char c: string.toCharArray()){
-	// reversedCharacters[tail] = c;
-	// tail--;
-	// }
-	// return new String(reversedCharacters);
-	// }
-	//
 	public String reverseCString(char[] characters) {
 		int lenght = characters.length - 1;
 		if (characters[lenght] != '\0'){

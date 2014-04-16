@@ -5,7 +5,6 @@ import static org.junit.Assert.assertEquals;
 import java.util.Arrays;
 import java.util.Collection;
 
-import main.ch1.Task1;
 import main.ch1.Task2;
 
 import org.junit.Test;
@@ -39,16 +38,10 @@ public class Task2Test {
 				{ "acba", new char[] { 'a', 'b', 'c', 'a', '\0' } } });
 	}
 
-
-//	@Test
-//	public void test2() {
-//		System.out.println("test2: excepted = " + excepted + ", s = " + new String(characters));
-//		assertEquals(excepted, new Task2().reverseString(new String(characters)));
-//	}
-	
 	@Test
-	public void test3() {
-		System.out.println("test3: excepted = " + excepted + ", s = " + new String(characters));
+	public void test1() {
+		System.out.println("test1: excepted = " + excepted + ", s = "
+				+ new String(characters));
 		assertEquals(excepted, new Task2().reverseCString(characters));
 	}
 }
