@@ -18,11 +18,7 @@ public class Task3 {
 
 			for (int j = i + 1; j < stringLength; j++) {
 				if (c1 == string.charAt(j)) {
-					if (j == stringLength) {
-						string = string.substring(0, j);
-					} else{
-						string = string.substring(0, j) + string.substring(j+1);
-					}
+					string = string.substring(0, j) + string.substring(j+1);
 					stringLength = string.length();
 					i--;
 					break;

@@ -29,6 +29,7 @@ public class Task2Test {
 				{ "", new char[] { '\0' } },
 				{ "a", new char[] { 'a', '\0' } },
 				{ "aa", new char[] { 'a', 'a', '\0' } },
+				{ "aa", new char[] { 'a', 'a' } },
 				{
 						"zyxwutsrponmlkjihgfedcba",
 						new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',

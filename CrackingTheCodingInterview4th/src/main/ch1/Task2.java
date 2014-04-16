@@ -12,7 +12,7 @@ public class Task2 {
 	public String reverseCString(char[] characters) {
 		int lenght = characters.length - 1;
 		if (characters[lenght] != '\0'){
-			lenght--;
+			lenght++;
 		}
 		char[] reversedCharacters = new char[lenght];
 		int tail = lenght - 1;
